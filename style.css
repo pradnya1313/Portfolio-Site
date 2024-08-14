@@ -1,0 +1,227 @@
+
+body{
+    margin: 0px;
+    height: 50vh;
+}
+.header.txtmsg{
+    position: relative;
+    font-size: 150%;
+    top: 40%;
+    text-align: center;
+    color: white;
+}
+.header h1{
+    position: relative;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: green;
+    font-weight: 600;
+}
+.header .menu{
+    position: absolute;
+    right: 20%;
+    top: 5%;
+}
+.header .menu a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.container .img img{
+    height: 540px;
+    width: 100%;
+}
+.container .img{
+    background-color: green;
+    height: 550px;
+}
+.container .info{
+    padding-top: 10px;
+}
+.container .info h2{
+    margin-left: 10%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.container .info p{
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-style:initial;
+}
+.container .info p a{
+    text-decoration: none;
+    color: green;
+}
+.container .info p a:hover{
+    color: blue;
+}
+.container .list{
+    padding-top: 20px;
+}
+.container .list ul li h4 a{
+    font-size:x-large;
+    text-decoration: none;
+    color: green;
+}
+.container .list ul li h4 a:hover{
+    color: blue;
+}
+.container .list ul li p{
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-style:initial;
+}
+.container .list ul li{
+    padding-bottom: 10px;
+}
+.portfolio {
+    padding-top: 15px;
+}
+.portfolio .port{
+    width: 49.5%;
+    height: 150px;
+    background-color: rgb(7, 7, 48); 
+    float: inline-start; 
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 25px;
+}
+.portfolio .view{
+    width: 50%;
+    height: 150px;
+    background-color: rgb(7, 7, 48);  
+    float: inline-end;
+    text-align: center;
+    padding-top: 25px;
+}
+.portfolio .port a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.portfolio .port img{
+    width: 100px;
+    height: 80px;
+    float: left;
+    padding-left:25px;
+    margin-left: 35%;
+}
+.portfolio .view a{
+    text-decoration: none;
+    color: white;
+}
+.portfolio .view img{
+    width: 100px;
+    height: 80px;
+    float: left;
+    padding-left:25px;
+    margin-left: 35%;
+}
+.portfolio .view:hover{
+    background-color: green;
+}
+.portfolio .port:hover{
+    background-color: green;
+}
+.articles{
+   padding-top: 13%; 
+}
+.articles h2{
+    margin-left: 15%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+div .scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 15px;
+}
+
+div .scroll-container img{
+    padding: 3px;
+    margin: 40px;
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+    background-color: white;
+}
+.scroll-container a{
+    display: inline-block;
+}
+.scroll-container img:hover{
+    background-color: rgb(24, 213, 24);
+}
+.scroll-container a p{
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    font-size: large;
+    font-weight: 550;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    margin-bottom: 13%;
+    text-decoration: none;
+    color: green;
+    padding: 15px;
+    margin-left: 13%;
+}
+.scroll-container p:hover{
+    color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}          
+.footer{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1280px;
+    width: 95%;
+    background-color: rgb(12, 12, 43);
+    border-radius: 6px;
+    float: 20px 20px;
+    
+}
+.footer .footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 3.5rem;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.footer-row .footer-col h4{
+    color: green;
+    font-size: medium;
+    font-weight: 600;
+}
+.footer-col .links{
+    margin-top: 20px;
+}
+.footer-col .links li{
+    list-style: none;
+    margin-bottom: 10px;
+    color: rgb(175, 173, 173);
+}
+.footer-col .links li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-col .links li a:hover{
+    color: rgb(175, 173, 173);
+}
+
+.end{
+    width: 100%;
+    height: 10px;
+    background-color: green;
+}
